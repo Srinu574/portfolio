@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Boda Srinivas - Full Stack Developer Portfolio</title>
+    <meta name="description" content="Java Full Stack Developer Portfolio - Boda Srinivas">
     <style>
         :root{--accent:#2563eb;--accent-light:#3b82f6;--accent-dark:#1e40af;--bg:#0f172a;--card:#0b1220;--muted:#94a3b8;--purple:#7c3aed;--cyan:#06b6d4;color-scheme:dark}
         *{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
@@ -64,121 +65,130 @@
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <div class="brand">
-            <div class="logo">BS</div>
-            <div>
-                <div style="font-weight:700">Boda Srinivas</div>
-                <div style="font-size:13px;color:var(--muted)">Java Full Stack Developer</div>
+<header>
+    <div class="brand">
+        <div class="logo">BS</div>
+        <div>
+            <div style="font-weight:700">Boda Srinivas</div>
+            <div style="font-size:13px;color:var(--muted)">Java Full Stack Developer</div>
+        </div>
+    </div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+<section class="hero">
+    <div class="card">
+        <h1 id="about">🚀 Hi, I'm Boda Srinivas</h1>
+        <p class="lead">Java Full Stack Developer crafting scalable, high-performance web applications. Passionate about solving complex problems with clean code, building robust backends, and delivering exceptional user experiences through modern technologies.</p>
+        
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value">4+</div>
+                <div class="stat-label">Technologies</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">2</div>
+                <div class="stat-label">Major Projects</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">1</div>
+                <div class="stat-label">Internship</div>
             </div>
         </div>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <main>
-        <section class="hero">
-            <div class="card">
-                <h1 id="about">🚀 Hi, I'm Boda Srinivas</h1>
-                <p class="lead">Java Full Stack Developer crafting scalable, high-performance web applications. Passionate about solving complex problems with clean code, building robust backends, and delivering exceptional user experiences through modern technologies.</p>
-                
-                <div class="stats">
-                    <div class="stat">
-                        <div class="stat-value">4+</div>
-                        <div class="stat-label">Tech Stack</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-value">2</div>
-                        <div class="stat-label">Major Projects</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-value">1</div>
-                        <div class="stat-label">Internship</div>
-                    </div>
-                </div>
+        <div style="margin-top:20px">
+            <h2 style="margin:0 0 12px 0;font-size:15px">💻 Technical Arsenal</h2>
+            <div class="skills">
+                <div class="skill">Java</div>
+                <div class="skill">Spring Boot</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">HTML & CSS</div>
+                <div class="skill">RESTful APIs</div>
+                <div class="skill">Hibernate</div>
+                <div class="skill">Git/GitHub</div>
+                <div class="skill">Postman</div>
+                <div class="skill">Agile Development</div>
+            </div>
+        </div>
 
-                <div style="margin-top:20px">
-                    <h2 style="margin:0 0 12px 0;font-size:15px">💻 Technical Arsenal</h2>
-                    <div class="skills">
-                        <div class="skill">Java</div>
-                        <div class="skill">Spring Boot</div>
-                        <div class="skill">MySQL</div>
-                        <div class="skill">JavaScript</div>
-                        <div class="skill">HTML & CSS</div>
-                        <div class="skill">RESTful APIs</div>
-                        <div class="skill">Hibernate</div>
-                        <div class="skill">Git/GitHub</div>
-                        <div class="skill">Postman</div>
-                        <div class="skill">Agile Development</div>
-                    </div>
-                </div>
+        <h2 style="margin-top:28px;margin-bottom:14px;font-size:15px">🎯 Featured Projects</h2>
+        <div class="projects" id="projects">
 
-                <h2 style="margin-top:28px;margin-bottom:14px;font-size:15px">🎯 Featured Projects</h2>
-                <div class="projects" id="projects">
-                    <div class="project">
-                        <h3>
-                            <span class="icon">🏨</span>
-                            Travel & Tourism Management System
-                            <span class="badge">Backend</span>
-                        </h3>
-                        <p>A comprehensive Java-based application for managing bookings, destinations, and customer data. Features include user authentication, data persistence with Hibernate & MySQL, and modular design patterns for scalability and maintainability.</p>
-                    </div>
-                    <div class="project">
-                        <h3>
-                            <span class="icon">🛒</span>
-                            Amazon Web Clone
-                            <span class="badge">Frontend</span>
-                        </h3>
-                        <p>Pixel-perfect responsive recreation of Amazon's homepage using HTML, CSS, and JavaScript. Emphasizes modern UI/UX design principles, cross-device compatibility, DOM manipulation, and web performance optimization techniques.</p>
-                    </div>
-                </div>
+            <div class="project">
+                <h3><span class="icon">🏨</span>Travel & Tourism Management System
+                    <span class="badge">Backend</span>
+                </h3>
+                <p>A comprehensive Java-based application for managing bookings, destinations, and customer data. Features include user authentication, Hibernate ORM, MySQL database, and scalable modular backend design.</p>
             </div>
 
-            <aside class="card" style="height:fit-content">
-                <h3 style="margin-top:0;margin-bottom:16px;background:linear-gradient(135deg,var(--accent-light),var(--cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">📬 Get In Touch</h3>
-                
-                <div style="margin-bottom:16px">
-                    <p style="color:var(--muted);margin:0 0 8px 0;font-size:12px;font-weight:600">EMAIL</p>
-                    <a class="btn secondary" href="mailto:bodasrinivas1093@gmail.com" style="width:100%;text-align:center;display:block">bodasrinivas1093@gmail.com</a>
-                </div>
+            <div class="project">
+                <h3><span class="icon">🛒</span>Amazon Web Clone
+                    <span class="badge">Frontend</span>
+                </h3>
+                <p>Responsive Amazon homepage clone built using HTML, CSS, and JavaScript with smooth UI design, DOM manipulation, and optimized performance.</p>
+            </div>
 
-                <div style="margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid rgba(37,99,235,0.1)">
-                    <p style="color:var(--muted);margin:0 0 8px 0;font-size:12px;font-weight:600">📱 PHONE</p>
-                    <p style="margin:0;color:#e6eef8;font-size:13px">+91 9391203301</p>
-                </div>
+            <div class="project">
+                <h3><span class="icon">🎮</span>Rock Paper Scissors Game
+                    <span class="badge">Frontend</span>
+                </h3>
+                <p>Interactive web-based Rock Paper Scissors game built using HTML, CSS, and JavaScript with real-time gameplay logic and responsive UI for all devices.</p>
+                <p style="margin-top:8px;">
+                    <a class="btn" href="https://Srinu574.github.io/rock-paper-scissors-game/" target="_blank">🔗 Play Game</a>
+                </p>
+            </div>
 
-                <div style="margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid rgba(37,99,235,0.1)">
-                    <p style="color:var(--muted);margin:0 0 8px 0;font-size:12px;font-weight:600">📍 LOCATION</p>
-                    <p style="margin:0;color:#e6eef8;font-size:13px">Hyderabad, Telangana</p>
-                </div>
+        </div>
+    </div>
 
-                <div style="margin-bottom:16px">
-                    <p style="color:var(--muted);margin:0 0 12px 0;font-size:12px;font-weight:600">SOCIAL LINKS</p>
-                    <div style="display:flex;gap:8px;flex-wrap:wrap">
-                        <a class="btn" href="https://github.com" style="flex:1;text-align:center;font-size:12px">GitHub</a>
-                        <a class="btn" href="https://linkedin.com" style="flex:1;text-align:center;font-size:12px">LinkedIn</a>
-                    </div>
-                </div>
+    <aside class="card" style="height:fit-content" id="contact">
+        <h3 style="margin-top:0;margin-bottom:16px;background:linear-gradient(135deg,var(--accent-light),var(--cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">📬 Get In Touch</h3>
 
-                <div style="padding:12px;background:rgba(37,99,235,0.05);border-radius:8px;border:1px solid rgba(37,99,235,0.15)">
-                    <p style="color:var(--muted);margin:0;font-size:12px">💡 Open to collaborations and freelance opportunities</p>
-                </div>
-            </aside>
-        </section>
-    </main>
+        <div style="margin-bottom:16px">
+            <p style="color:var(--muted);margin:0 0 8px 0;font-size:12px;font-weight:600">EMAIL</p>
+            <a class="btn secondary" href="mailto:bodasrinivas1093@gmail.com" style="width:100%;text-align:center;display:block">bodasrinivas1093@gmail.com</a>
+        </div>
 
-    <footer>
-        © <span id="year"></span> Boda Srinivas — Full Stack Developer | Built with HTML & CSS
-    </footer>
+        <div style="margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid rgba(37,99,235,0.1)">
+            <p style="color:var(--muted);margin:0 0 8px 0;font-size:12px;font-weight:600">📱 PHONE</p>
+            <p style="margin:0;color:#e6eef8;font-size:13px">+91 9391203301</p>
+        </div>
 
-    <script>
-        // small script: set year and let user customize quickly
-        document.getElementById('year').textContent = new Date().getFullYear();
-        // Replace placeholders: search for "Your Name", "you@example.com", and project text
-    </script>
+        <div style="margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid rgba(37,99,235,0.1)">
+            <p style="color:var(--muted);margin:0 0 8px 0;font-size:12px;font-weight:600">📍 LOCATION</p>
+            <p style="margin:0;color:#e6eef8;font-size:13px">Hyderabad, Telangana</p>
+        </div>
+
+        <div style="margin-bottom:16px">
+            <p style="color:var(--muted);margin:0 0 12px 0;font-size:12px;font-weight:600">SOCIAL LINKS</p>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+                <a class="btn" href="https://github.com" style="flex:1;text-align:center;font-size:12px">GitHub</a>
+                <a class="btn" href="https://linkedin.com" style="flex:1;text-align:center;font-size:12px">LinkedIn</a>
+            </div>
+        </div>
+
+        <div style="padding:12px;background:rgba(37,99,235,0.05);border-radius:8px;border:1px solid rgba(37,99,235,0.15)">
+            <p style="color:var(--muted);margin:0;font-size:12px">💡 Open to collaborations and freelance opportunities</p>
+        </div>
+    </aside>
+</section>
+</main>
+
+<footer>
+    © <span id="year"></span> Boda Srinivas — Full Stack Developer | Built with HTML & CSS
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
